@@ -1,4 +1,4 @@
-module grpc
+module grpc-study
 
 go 1.16
 
