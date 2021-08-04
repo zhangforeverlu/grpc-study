@@ -1,6 +1,7 @@
 package main
 
 import (
+	"context"
 	"google.golang.org/grpc"
 	"log"
 	"net"
@@ -13,7 +14,7 @@ const (
 )
 
 type server struct {
-	UnimplementedGreeterServer
+	pb.UnimplementedGreeterServer
 }
 
 // SayHello implements helloworld.GreeterServer
