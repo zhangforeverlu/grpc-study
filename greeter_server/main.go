@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/zhangforeverlu/grpc/helloworld"
+	pb "github.com/zhangforeverlu/grpc-study/helloworld"
 )
 
 const (
